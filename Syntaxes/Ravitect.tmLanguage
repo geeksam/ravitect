@@ -66,6 +66,13 @@
 				</dict>
 			</array>
 		</dict>
+		<key>comment</key>
+		<dict>
+			<key>match</key>
+			<string>#.*$</string>
+			<key>name</key>
+			<string>comment.line</string>
+		</dict>
 		<key>everything</key>
 		<dict>
 			<key>patterns</key>
@@ -77,6 +84,10 @@
 				<dict>
 					<key>include</key>
 					<string>#bracketed_annotation</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#comment</string>
 				</dict>
 				<dict>
 					<key>include</key>
